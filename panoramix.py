@@ -432,7 +432,7 @@ function_name = None
 if len(sys.argv) == 1:
     print(
         f"""
-    python3 panoramix.py [address|shortcut|stdin] [func_name] [--verbose] [--silent]
+    python3 panoramix.py [ss|shortcut|stdin] [func_name] [--verbose] [--silent]
 
         address: {C.gray}e.g. 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d
                  you can provide multiple, separating with comma{C.end}
